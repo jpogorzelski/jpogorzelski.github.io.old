@@ -708,7 +708,7 @@ sv-SE:
   <<: *DEFAULT_SV
 sv-FI:
   <<: *DEFAULT_SV
- 
+
 # Dutch
 # -----------------
 nl: &DEFAULT_NL
