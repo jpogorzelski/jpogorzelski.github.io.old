@@ -21,7 +21,7 @@ title_separator          : "-"
 name                     : "Jakub Pogorzelski"
 description              : "Dev blog."
 url                      : "https://jpogorzelski.github.io"
-baseurl                  : "/"
+baseurl                  : 
 repository               : "jpogorzelski/jpogorzelski.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path to logo
