@@ -23,8 +23,8 @@ description              : "Dev blog."
 url                      : "http://jpogorzelski.github.io"
 baseurl                  : "/"
 repository               : "jpogorzelski/jpogorzelski.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path to logo
+teaser                   : "/assets/images/unsplash-image-2.jpg"
+logo                     :
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -271,3 +271,11 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
